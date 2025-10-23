@@ -16,15 +16,27 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
   tesla,
   shopify,
   carrent,
+  starbucks,
   jobit,
   tripguide,
   threejs,
 } from "../assets";
-
+import segula from "../assets/company/segula.png";
+import ibnt from "../assets/company/ibnt.png";
+import em from "../assets/company/em.jpg";
+import n8n from "../assets/tech/n8n.png";
+import cplus from "../assets/tech/cplus.png";
+import flask from "../assets/tech/flask.jpg";
+import flutter from "../assets/tech/flutter.png";
+import java from "../assets/tech/java.png";
+import laravel from "../assets/tech/laravel.png";
+import next from "../assets/tech/next.png";
+import segulatechnos from "../assets/segulatechnos.png";
+import qz from "../assets/qz.png";
+import n8n_pro from "../assets/n8n_pro.png";
 export const navLinks = [
   {
     id: "about",
@@ -46,17 +58,14 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "AI Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  
 ];
 
 const technologies = [
@@ -73,193 +82,170 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Nextjs",
+    icon: next,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "n8n",
+    icon: n8n,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
+  
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Flask",
+    icon: flask,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "C++",
+    icon: cplus,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Flutter",
+    icon: flutter,
   },
   {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Java",
+    icon: java,
+  }
 ];
 
 const experiences = [
+ {
+  title: "AI Full-Stack Developer",
+  company_name: "Segula Technologies",
+  icon: segula,
+  iconBg: "#E6DEDD",
+  date: "February 2025 - August 2025",
+  points: [
+    "Developed an AI Assistant for regulatory analysis and detection of non-conformities.",
+    "Designed a chatbot interface with dynamic Q&A, conformity detection, translation, scoring, and error feedback.",
+    "Built an interactive frontend using Next.js 13 (App Router), React, TypeScript, TailwindCSS, and ShadCN UI.",
+    "Implemented a Retrieval-Augmented Generation (RAG) pipeline using LangChain, Ollama, and FAISS."
+  ],
+},
+
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "AI Application Developer",
+    company_name: "Ibn Tofail University",
+    icon: ibnt,
+    iconBg: "#ffffff",
+    date: "July 2024 - August 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+     "Developing an AI-based quiz application.",
+     " Designed and developed an AI-powered quiz application integrated with Moodle using  Next.js 13, TailwindCSS, OpenAI API, and NextAuth.",
+     "Implemented an OpenAI API to dynamically generate questions based on defined topics.",
+     "Optimized user experience by displaying generated quizzes and building an export module for Aiken and XML formats for teachers."
+    ],
+  },
+  {
+    title: "Full-Stack Developer",
+    company_name: "Emerging Business Factory",
+    icon: em,
+    iconBg: "#000000",
+    date: "July 2023 - August 2023",
+    points: [
+      "Development of an E-commerce Website.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+ 
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+ const testimonials = [];
+
 
 const projects = [
+ {
+  name: "AI Regulatory Assistant",
+  description:
+    "An intelligent assistant that leverages AI to analyze regulatory documents, identify compliance requirements, and detect potential non-conformities. It also includes a chatbot dedicated to compliance, allowing users to ask questions and receive accurate, context-aware answers in real time. Designed to streamline conformity assessments and support decision-making in regulated industries.",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Next.js",
+      color: "green-text-gradient",
+    },
+    {
+      name: "tailwind",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "RAGs",
+      color: "purple-text-gradient",
+    },
+    {
+      name: "Langchain",
+      color: "orange-text-gradient",
+    },
+  ],
+  image: segulatechnos, // ton image/logo spécifique
+  source_code_link: "", // à remplacer par ton repo
+}
+,
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
+  name: "QuizApp_IA",
+  description:
+    "Interactive web application that allows users to generate and play AI-powered custom quizzes, track scores, and receive performance insights.",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "openai",
+      color: "green-text-gradient",
+    },
+    {
+      name: "tailwindcss",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: qz,  // Replace with your actual image variable or import
+  source_code_link: "https://github.com/AsmaaElb/QuizApp_IA",
+}
+,
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  name: "Assistant IA (n8n)",
+  description:
+    "An automation assistant built with n8n that connects Telegram, Gmail, OpenAI, and Google Calendar to handle messages, emails, scheduling, and AI-powered responses.",
+  tags: [
+    {
+      name: "n8n",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "openai",
+      color: "green-text-gradient",
+    },
+    {
+      name: "telegram",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: n8n_pro,  // replace with your actual image/asset reference
+  source_code_link: "https://github.com/AsmaaElb/assistant-ia-n8n",
+}
+,
 ];
 
 export { services, technologies, experiences, testimonials, projects };
