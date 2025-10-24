@@ -172,7 +172,52 @@ const experiences = [
 
 
 const projects = [
- {
+ 
+  {
+  name: "QuizApp_IA",
+  description:
+    "Interactive web application that allows users to generate and play AI-powered custom quizzes, track scores, and receive performance insights.",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "openai",
+      color: "green-text-gradient",
+    },
+    {
+      name: "tailwindcss",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: qz,  // Replace with your actual image variable or import
+  source_code_link: "https://github.com/AsmaaElb/QuizApp_IA",
+}
+,
+{
+  name: "Assistant IA (n8n)",
+  description:
+    "An automation assistant built with n8n that connects Telegram, Gmail, OpenAI, and Google Calendar to handle messages, emails, scheduling, and AI-powered responses.",
+  tags: [
+    {
+      name: "n8n",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "openai",
+      color: "green-text-gradient",
+    },
+    {
+      name: "telegram",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: n8n_pro,  // replace with your actual image/asset reference
+  source_code_link: "https://github.com/AsmaaElb/assistant-ia-n8n",
+}
+,
+{
   name: "AI Regulatory Assistant",
   description:
     "An intelligent assistant that leverages AI to analyze regulatory documents, identify compliance requirements, and detect potential non-conformities. It also includes a chatbot dedicated to compliance, allowing users to ask questions and receive accurate, context-aware answers in real time. Designed to streamline conformity assessments and support decision-making in regulated industries.",
@@ -202,50 +247,7 @@ const projects = [
   source_code_link: "", // à remplacer par ton repo
 }
 ,
-  {
-  name: "QuizApp_IA",
-  description:
-    "Interactive web application that allows users to generate and play AI-powered custom quizzes, track scores, and receive performance insights.",
-  tags: [
-    {
-      name: "react",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "openai",
-      color: "green-text-gradient",
-    },
-    {
-      name: "tailwindcss",
-      color: "pink-text-gradient",
-    },
-  ],
-  image: qz,  // Replace with your actual image variable or import
-  source_code_link: "https://github.com/AsmaaElb/QuizApp_IA",
-}
-,
-  {
-  name: "Assistant IA (n8n)",
-  description:
-    "An automation assistant built with n8n that connects Telegram, Gmail, OpenAI, and Google Calendar to handle messages, emails, scheduling, and AI-powered responses.",
-  tags: [
-    {
-      name: "n8n",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "openai",
-      color: "green-text-gradient",
-    },
-    {
-      name: "telegram",
-      color: "pink-text-gradient",
-    },
-  ],
-  image: n8n_pro,  // replace with your actual image/asset reference
-  source_code_link: "https://github.com/AsmaaElb/assistant-ia-n8n",
-}
-,
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
